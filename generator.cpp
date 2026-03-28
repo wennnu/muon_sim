@@ -1,0 +1,33 @@
+#include "generator.hh"
+
+PrimaryGenerator::PrimaryGenerator()
+{
+	// 1 as in the number of events
+	fParticleGun = new G4ParticleGun(1);
+}
+
+PrimaryGenerator::~PrimaryGenerator()
+{
+	delete fParticleGun;
+}
+
+void PrimaryGenerator::GeneratePrimaries(G4Event *event)
+{
+	// where particle information is stored
+	G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
+	G4String particleName = "mu+";
+	G4ParticleDefinition *particle = particleTable -> FindParticle(particleName);
+
+	// position and momentum vectors
+	G4ThreeVector pos(0.,0.,-6.*cm);
+	G4ThreeVector mom(0.,0.,0.);
+
+	// generate the particle 
+	fParticleGun -> SetParticlePosition(pos);
+	fParticleGun -> SetParticleMomentumDirection(mom);
+	fParticleGun -> SetParticleMomentum(0.*GeV);
+	fParticleGun -> SetParticleDefinition(particle);
+
+	fParticleGun -> GeneratePrimaryVertex(event);
+}	
+
