@@ -1,9 +1,10 @@
-CMakeFiles/muon_sim.dir/generator.cpp.o: \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/generator.cpp \
+CMakeFiles/muon_sim.dir/detector.cpp.o: \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/detector.cpp \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/generator.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Decay.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/detector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSensitiveDetector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4CollectionNameVector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/globals.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ios.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Types.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GlobalConfig.hh \
@@ -214,7 +215,6 @@ CMakeFiles/muon_sim.dir/generator.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/sstream.tcc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/tls.hh \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/iostream \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/globals.hh \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/algorithm \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/stl_algo.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/algorithmfwd.h \
@@ -270,103 +270,15 @@ CMakeFiles/muon_sim.dir/generator.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/parse_numbers.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/std_mutex.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/unique_lock.h \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VRestDiscreteProcess.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VProcess.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/Randomize.hh \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/Randomize.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/defs.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/DRand48Engine.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandomEngine.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/fstream \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/x86_64-conda-linux-gnu/bits/basic_file.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/x86_64-conda-linux-gnu/bits/c++io.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/fstream.tcc \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/vector \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/stl_uninitialized.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/stl_vector.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/stl_bvector.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/vector.tcc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandomEngine.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Utility/noncopyable.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Utility/defs.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/DualRand.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/Hurd160Engine.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/Hurd288Engine.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/JamesRandom.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/MixMaxRng.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/array \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/compare \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/MTwistEngine.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandEngine.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RanecuEngine.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RanluxEngine.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/Ranlux64Engine.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RanluxppEngine.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RanshiEngine.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/TripleRand.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandBinomial.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/Random.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/Random.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Utility/memory.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/memory \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/stl_raw_storage_iter.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/align.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/unique_ptr.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/shared_ptr.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/shared_ptr_base.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/allocated_ptr.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/ext/concurrence.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/shared_ptr_atomic.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/atomic_base.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/atomic_lockfree_defines.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/backward/auto_ptr.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/pstl/glue_memory_defs.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandBinomial.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandBreitWigner.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandFlat.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Utility/thread_local.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandFlat.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandBreitWigner.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandChiSquare.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandChiSquare.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandExponential.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandExponential.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandExpZiggurat.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandBit.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandBit.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGamma.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGamma.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGauss.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGauss.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGaussQ.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGaussQ.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGaussT.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/Stat.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGaussT.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGaussZiggurat.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGeneral.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGeneral.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandLandau.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandLandau.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandPoissonQ.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandPoisson.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandPoisson.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandPoissonQ.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandPoissonT.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandPoissonT.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandSkewNormal.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandSkewNormal.icc \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandStudentT.h \
- /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandStudentT.icc \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsTable.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsVector.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Log.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsVectorType.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsVector.icc \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsTable.icc \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VParticleChange.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TrackStatus.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SteppingControl.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4HCofThisEvent.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Allocator.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AllocatorPool.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VHitsCollection.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Step.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ThreeVector.hh \
  /home/ws/miniconda3/envs/geant4env/include/CLHEP/Vector/ThreeVector.h \
@@ -399,7 +311,14 @@ CMakeFiles/muon_sim.dir/generator.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Threading.hh \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/chrono \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/condition_variable \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/shared_ptr.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/shared_ptr_base.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/allocated_ptr.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/unique_ptr.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/ext/concurrence.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/future \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/atomic_base.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/atomic_lockfree_defines.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/atomic_futex.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/atomic \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/std_function.h \
@@ -408,8 +327,7 @@ CMakeFiles/muon_sim.dir/generator.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/this_thread_sleep.h \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VPhysicalVolume.icc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4StepPoint.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Allocator.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AllocatorPool.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SteppingControl.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4StepStatus.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TouchableHandle.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VTouchable.hh \
@@ -433,6 +351,12 @@ CMakeFiles/muon_sim.dir/generator.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NavigationHistoryPool.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NavigationHistory.icc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4LogicalVolume.hh \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/memory \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/stl_raw_storage_iter.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/align.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/shared_ptr_atomic.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/backward/auto_ptr.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/pstl/glue_memory_defs.h \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Region.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Region.icc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4LogicalVolume.icc \
@@ -451,6 +375,14 @@ CMakeFiles/muon_sim.dir/generator.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4MaterialPropertiesIndex.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4MaterialPropertyVector.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsFreeVector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsVector.hh \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/fstream \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/x86_64-conda-linux-gnu/bits/basic_file.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/x86_64-conda-linux-gnu/bits/c++io.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/fstream.tcc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Log.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsVectorType.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsVector.icc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4MaterialTable.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SandiaTable.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4OrderedTable.hh \
@@ -471,24 +403,11 @@ CMakeFiles/muon_sim.dir/generator.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleDefinition.icc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleMomentum.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4DynamicParticle.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TrackStatus.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserTrackInformation.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsModelCatalog.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Track.icc \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VParticleChange.icc \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ForceCondition.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GPILSelection.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleChange.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleChange.icc \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ProcessType.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleChangeForDecay.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4DecayProcessType.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4MuonDecayChannel.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VDecayChannel.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SystemOfUnits.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleTable.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleTableIterator.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleTable.icc \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleGun.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VPrimaryGenerator.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PrimaryVertex.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PrimaryParticle.hh
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VHit.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VReadOutGeometry.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSDFilter.hh

@@ -11,9 +11,11 @@
 #include "G4SystemOfUnits.hh"
 #include "G4Material.hh"
 
+#include "detector.hh"
+
 class MuonDetectorConstruction : public G4VUserDetectorConstruction
 {
-public:
+  public:
 	// Notes: virtual function, function belongs to the child
 	// so pointers will run the child function and not the
 	// base function and it can be override by derived class
@@ -29,6 +31,9 @@ public:
 			     G4double spanningAngle);
 
 	virtual G4VPhysicalVolume *Construct();
+  private:
+	G4LogicalVolume *logicDetector;
+	virtual void ConstructSDandField();
 };
 
 #endif

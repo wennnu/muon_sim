@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build/cmake_install.cmake"
+		"/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

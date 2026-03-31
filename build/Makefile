@@ -57,10 +57,10 @@ RM = /home/ws/miniconda3/envs/geant4env/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode"
+CMAKE_SOURCE_DIR = "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build"
+CMAKE_BINARY_DIR = "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,16 +87,16 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build/CMakeFiles" "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build/CMakeFiles" "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" 0
 .PHONY : codegen
 
 # The main clean target
@@ -197,6 +197,30 @@ construction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/construction.cpp.s
 .PHONY : construction.cpp.s
 
+detector.o: detector.cpp.o
+.PHONY : detector.o
+
+# target to build an object file
+detector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/detector.cpp.o
+.PHONY : detector.cpp.o
+
+detector.i: detector.cpp.i
+.PHONY : detector.i
+
+# target to preprocess a source file
+detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/detector.cpp.i
+.PHONY : detector.cpp.i
+
+detector.s: detector.cpp.s
+.PHONY : detector.s
+
+# target to generate assembly for a file
+detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/detector.cpp.s
+.PHONY : detector.cpp.s
+
 generator.o: generator.cpp.o
 .PHONY : generator.o
 
@@ -286,6 +310,9 @@ help:
 	@echo "... construction.o"
 	@echo "... construction.i"
 	@echo "... construction.s"
+	@echo "... detector.o"
+	@echo "... detector.i"
+	@echo "... detector.s"
 	@echo "... generator.o"
 	@echo "... generator.i"
 	@echo "... generator.s"

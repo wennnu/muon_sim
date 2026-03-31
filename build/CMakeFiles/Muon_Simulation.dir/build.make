@@ -53,10 +53,10 @@ RM = /home/ws/miniconda3/envs/geant4env/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode"
+CMAKE_SOURCE_DIR = "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build"
+CMAKE_BINARY_DIR = "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build"
 
 # Utility rule file for Muon_Simulation.
 
@@ -85,6 +85,6 @@ CMakeFiles/Muon_Simulation.dir/clean:
 .PHONY : CMakeFiles/Muon_Simulation.dir/clean
 
 CMakeFiles/Muon_Simulation.dir/depend:
-	cd "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode" "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode" "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build" "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build" "/home/ws/Documents/mcgill26w/phys 258/finalproject/sourcecode/build/CMakeFiles/Muon_Simulation.dir/DependInfo.cmake" "--color=$(COLOR)" Muon_Simulation
+	cd "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim" "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim" "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build" "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build" "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles/Muon_Simulation.dir/DependInfo.cmake" "--color=$(COLOR)" Muon_Simulation
 .PHONY : CMakeFiles/Muon_Simulation.dir/depend
 

@@ -5,6 +5,7 @@ muon_sim: \
   CMakeFiles/muon_sim.dir/main.cpp.o \
   CMakeFiles/muon_sim.dir/action.cpp.o \
   CMakeFiles/muon_sim.dir/construction.cpp.o \
+  CMakeFiles/muon_sim.dir/detector.cpp.o \
   CMakeFiles/muon_sim.dir/generator.cpp.o \
   CMakeFiles/muon_sim.dir/physicslist.cpp.o \
   /home/ws/miniconda3/envs/geant4env/lib/libG4Tree.so \
@@ -140,6 +141,8 @@ CMakeFiles/muon_sim.dir/main.cpp.o:
 CMakeFiles/muon_sim.dir/action.cpp.o:
 
 CMakeFiles/muon_sim.dir/construction.cpp.o:
+
+CMakeFiles/muon_sim.dir/detector.cpp.o:
 
 CMakeFiles/muon_sim.dir/generator.cpp.o:
 

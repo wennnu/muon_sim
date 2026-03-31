@@ -1,7 +1,7 @@
 CMakeFiles/muon_sim.dir/construction.cpp.o: \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/construction.cpp \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/construction.cpp \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/construction.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/construction.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/globals.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ios.hh \
@@ -392,4 +392,53 @@ CMakeFiles/muon_sim.dir/construction.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Pow.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Exp.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SystemOfUnits.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Material.hh
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Material.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/detector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSensitiveDetector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4CollectionNameVector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4HCofThisEvent.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Allocator.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AllocatorPool.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VHitsCollection.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Step.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4StepPoint.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SteppingControl.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4StepStatus.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TouchableHandle.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VTouchable.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TouchableHistory.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NavigationHistory.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AffineTransform.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AffineTransform.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NavigationLevel.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NavigationLevelRep.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NavigationLevelRep.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NavigationLevel.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NavigationHistoryPool.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NavigationHistory.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4LogicalVolume.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TouchableHistory.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ReferenceCountedHandle.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4StepPoint.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TrackVector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Step.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Track.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/trkdefs.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4DynamicParticle.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ElectronOccupancy.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/pwdefs.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4LorentzVector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleDefinition.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PDefManager.hh \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/stdlib.h \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleDefinition.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleMomentum.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4DynamicParticle.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TrackStatus.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserTrackInformation.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsModelCatalog.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Track.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VHit.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VReadOutGeometry.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSDFilter.hh

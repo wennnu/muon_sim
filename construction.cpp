@@ -80,13 +80,14 @@ G4VPhysicalVolume *MuonDetectorConstruction::Construct()
 							    0);
 	
 	// create the scintillator
-	/*
+	
 	G4Tubs* scintillatorDimension = MuonDetectorConstruction::MakeCylinder("Scintillator Dimension", 0.*cm,
 									7.5*cm, 6.25*cm,
 									0.*deg, 360.*deg);
 
  
 	G4LogicalVolume* logicPVT = new G4LogicalVolume(scintillatorDimension, PVT, "Plastic Scintillator"); 
+	logicDetector = logicPVT;
 
 	G4VPhysicalVolume* physicalPVT = new G4PVPlacement(0, G4ThreeVector(0., 0., -8.25*cm),
 							logicPVT, // the logical volume inside
@@ -94,8 +95,15 @@ G4VPhysicalVolume *MuonDetectorConstruction::Construct()
 							logicWorld, // the logical volume outside
 							false, // no boolean operations
 							0); // its copy number
+	
+	
 
-							*/
 	return physicalWorld;
 }
 
+void MuonDetectorConstruction::ConstructSDandField()
+{
+	
+	SensitiveDetector *detector = new SensitiveDetector("Sensitive Detector");
+	logicDetector -> SetSensitiveDetector(detector);
+}

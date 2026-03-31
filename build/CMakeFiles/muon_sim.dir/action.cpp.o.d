@@ -1,9 +1,9 @@
 CMakeFiles/muon_sim.dir/action.cpp.o: \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/action.cpp \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/action.cpp \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/action.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/action.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserActionInitialization.hh \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/generator.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/generator.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Decay.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ios.hh \

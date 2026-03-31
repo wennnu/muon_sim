@@ -1,5 +1,5 @@
 CMakeFiles/muon_sim.dir/main.cpp.o: \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/main.cpp \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/main.cpp \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/iostream \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/bits/requires_hosted.h \
@@ -694,7 +694,7 @@ CMakeFiles/muon_sim.dir/main.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4UIbatch.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4UIExecutive.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUIshell.hh \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/construction.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/construction.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VPhysicalVolume.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4LogicalVolume.hh \
@@ -709,7 +709,13 @@ CMakeFiles/muon_sim.dir/main.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Exp.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SystemOfUnits.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Material.hh \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/physicslist.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/detector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSensitiveDetector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4CollectionNameVector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VReadOutGeometry.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSDFilter.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/physicslist.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VModularPhysicsList.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VPhysicsConstructor.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsListHelper.hh \
@@ -733,9 +739,9 @@ CMakeFiles/muon_sim.dir/main.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4EmStandardPhysics.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4OpticalPhysics.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4OpticalParameters.hh \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/action.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/action.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserActionInitialization.hh \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/generator.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/generator.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Decay.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleTable.hh \

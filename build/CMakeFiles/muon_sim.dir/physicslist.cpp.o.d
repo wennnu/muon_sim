@@ -1,7 +1,7 @@
 CMakeFiles/muon_sim.dir/physicslist.cpp.o: \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/physicslist.cpp \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/physicslist.cpp \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/sourcecode/physicslist.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/physicslist.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VModularPhysicsList.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VPhysicsConstructor.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleTable.hh \
