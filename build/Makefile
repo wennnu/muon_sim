@@ -221,6 +221,30 @@ detector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/detector.cpp.s
 .PHONY : detector.cpp.s
 
+event.o: event.cpp.o
+.PHONY : event.o
+
+# target to build an object file
+event.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/event.cpp.o
+.PHONY : event.cpp.o
+
+event.i: event.cpp.i
+.PHONY : event.i
+
+# target to preprocess a source file
+event.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/event.cpp.i
+.PHONY : event.cpp.i
+
+event.s: event.cpp.s
+.PHONY : event.s
+
+# target to generate assembly for a file
+event.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/event.cpp.s
+.PHONY : event.cpp.s
+
 generator.o: generator.cpp.o
 .PHONY : generator.o
 
@@ -293,6 +317,54 @@ physicslist.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/physicslist.cpp.s
 .PHONY : physicslist.cpp.s
 
+run.o: run.cpp.o
+.PHONY : run.o
+
+# target to build an object file
+run.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/run.cpp.o
+.PHONY : run.cpp.o
+
+run.i: run.cpp.i
+.PHONY : run.i
+
+# target to preprocess a source file
+run.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/run.cpp.i
+.PHONY : run.cpp.i
+
+run.s: run.cpp.s
+.PHONY : run.s
+
+# target to generate assembly for a file
+run.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/run.cpp.s
+.PHONY : run.cpp.s
+
+stepping.o: stepping.cpp.o
+.PHONY : stepping.o
+
+# target to build an object file
+stepping.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/stepping.cpp.o
+.PHONY : stepping.cpp.o
+
+stepping.i: stepping.cpp.i
+.PHONY : stepping.i
+
+# target to preprocess a source file
+stepping.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/stepping.cpp.i
+.PHONY : stepping.cpp.i
+
+stepping.s: stepping.cpp.s
+.PHONY : stepping.s
+
+# target to generate assembly for a file
+stepping.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muon_sim.dir/build.make CMakeFiles/muon_sim.dir/stepping.cpp.s
+.PHONY : stepping.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -313,6 +385,9 @@ help:
 	@echo "... detector.o"
 	@echo "... detector.i"
 	@echo "... detector.s"
+	@echo "... event.o"
+	@echo "... event.i"
+	@echo "... event.s"
 	@echo "... generator.o"
 	@echo "... generator.i"
 	@echo "... generator.s"
@@ -322,6 +397,12 @@ help:
 	@echo "... physicslist.o"
 	@echo "... physicslist.i"
 	@echo "... physicslist.s"
+	@echo "... run.o"
+	@echo "... run.i"
+	@echo "... run.s"
+	@echo "... stepping.o"
+	@echo "... stepping.i"
+	@echo "... stepping.s"
 .PHONY : help
 
 

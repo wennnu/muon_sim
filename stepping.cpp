@@ -1,6 +1,6 @@
 #include "stepping.hh"
 
-SteppingAction::SteppingAction()
+SteppingAction::SteppingAction(EventAction* eventAction)
 {
 	fEventAction = eventAction;
 }
@@ -14,7 +14,7 @@ void SteppingAction::UserSteppingAction(const G4Step *step)
 
 	const MuonDetectorConstruction *detectorConstruction = static_cast<const MuonDetectorConstruction*> (G4RunManager::GetRunManager() -> GetUserDetectorConstruction());
 
-	G4LogicalVolume *fscoringVolume = detectorConstruction -> GetScoringVolume();
+	G4LogicalVolume *fScoringVolume = detectorConstruction -> GetScoringVolume();
 
 	if(volume != fScoringVolume)
 		return;	

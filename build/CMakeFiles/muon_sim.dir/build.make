@@ -128,10 +128,24 @@ CMakeFiles/muon_sim.dir/detector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/muon_sim.dir/detector.cpp.s"
 	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/detector.cpp" -o CMakeFiles/muon_sim.dir/detector.cpp.s
 
+CMakeFiles/muon_sim.dir/event.cpp.o: CMakeFiles/muon_sim.dir/flags.make
+CMakeFiles/muon_sim.dir/event.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/event.cpp
+CMakeFiles/muon_sim.dir/event.cpp.o: CMakeFiles/muon_sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/muon_sim.dir/event.cpp.o"
+	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/muon_sim.dir/event.cpp.o -MF CMakeFiles/muon_sim.dir/event.cpp.o.d -o CMakeFiles/muon_sim.dir/event.cpp.o -c "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/event.cpp"
+
+CMakeFiles/muon_sim.dir/event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/muon_sim.dir/event.cpp.i"
+	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/event.cpp" > CMakeFiles/muon_sim.dir/event.cpp.i
+
+CMakeFiles/muon_sim.dir/event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/muon_sim.dir/event.cpp.s"
+	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/event.cpp" -o CMakeFiles/muon_sim.dir/event.cpp.s
+
 CMakeFiles/muon_sim.dir/generator.cpp.o: CMakeFiles/muon_sim.dir/flags.make
 CMakeFiles/muon_sim.dir/generator.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/generator.cpp
 CMakeFiles/muon_sim.dir/generator.cpp.o: CMakeFiles/muon_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/muon_sim.dir/generator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/muon_sim.dir/generator.cpp.o"
 	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/muon_sim.dir/generator.cpp.o -MF CMakeFiles/muon_sim.dir/generator.cpp.o.d -o CMakeFiles/muon_sim.dir/generator.cpp.o -c "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/generator.cpp"
 
 CMakeFiles/muon_sim.dir/generator.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/muon_sim.dir/generator.cpp.s: cmake_force
 CMakeFiles/muon_sim.dir/physicslist.cpp.o: CMakeFiles/muon_sim.dir/flags.make
 CMakeFiles/muon_sim.dir/physicslist.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/physicslist.cpp
 CMakeFiles/muon_sim.dir/physicslist.cpp.o: CMakeFiles/muon_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/muon_sim.dir/physicslist.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/muon_sim.dir/physicslist.cpp.o"
 	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/muon_sim.dir/physicslist.cpp.o -MF CMakeFiles/muon_sim.dir/physicslist.cpp.o.d -o CMakeFiles/muon_sim.dir/physicslist.cpp.o -c "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/physicslist.cpp"
 
 CMakeFiles/muon_sim.dir/physicslist.cpp.i: cmake_force
@@ -156,14 +170,45 @@ CMakeFiles/muon_sim.dir/physicslist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/muon_sim.dir/physicslist.cpp.s"
 	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/physicslist.cpp" -o CMakeFiles/muon_sim.dir/physicslist.cpp.s
 
+CMakeFiles/muon_sim.dir/run.cpp.o: CMakeFiles/muon_sim.dir/flags.make
+CMakeFiles/muon_sim.dir/run.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/run.cpp
+CMakeFiles/muon_sim.dir/run.cpp.o: CMakeFiles/muon_sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/muon_sim.dir/run.cpp.o"
+	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/muon_sim.dir/run.cpp.o -MF CMakeFiles/muon_sim.dir/run.cpp.o.d -o CMakeFiles/muon_sim.dir/run.cpp.o -c "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/run.cpp"
+
+CMakeFiles/muon_sim.dir/run.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/muon_sim.dir/run.cpp.i"
+	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/run.cpp" > CMakeFiles/muon_sim.dir/run.cpp.i
+
+CMakeFiles/muon_sim.dir/run.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/muon_sim.dir/run.cpp.s"
+	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/run.cpp" -o CMakeFiles/muon_sim.dir/run.cpp.s
+
+CMakeFiles/muon_sim.dir/stepping.cpp.o: CMakeFiles/muon_sim.dir/flags.make
+CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/stepping.cpp
+CMakeFiles/muon_sim.dir/stepping.cpp.o: CMakeFiles/muon_sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/muon_sim.dir/stepping.cpp.o"
+	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/muon_sim.dir/stepping.cpp.o -MF CMakeFiles/muon_sim.dir/stepping.cpp.o.d -o CMakeFiles/muon_sim.dir/stepping.cpp.o -c "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/stepping.cpp"
+
+CMakeFiles/muon_sim.dir/stepping.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/muon_sim.dir/stepping.cpp.i"
+	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/stepping.cpp" > CMakeFiles/muon_sim.dir/stepping.cpp.i
+
+CMakeFiles/muon_sim.dir/stepping.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/muon_sim.dir/stepping.cpp.s"
+	/home/ws/miniconda3/envs/geant4env/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/stepping.cpp" -o CMakeFiles/muon_sim.dir/stepping.cpp.s
+
 # Object files for target muon_sim
 muon_sim_OBJECTS = \
 "CMakeFiles/muon_sim.dir/main.cpp.o" \
 "CMakeFiles/muon_sim.dir/action.cpp.o" \
 "CMakeFiles/muon_sim.dir/construction.cpp.o" \
 "CMakeFiles/muon_sim.dir/detector.cpp.o" \
+"CMakeFiles/muon_sim.dir/event.cpp.o" \
 "CMakeFiles/muon_sim.dir/generator.cpp.o" \
-"CMakeFiles/muon_sim.dir/physicslist.cpp.o"
+"CMakeFiles/muon_sim.dir/physicslist.cpp.o" \
+"CMakeFiles/muon_sim.dir/run.cpp.o" \
+"CMakeFiles/muon_sim.dir/stepping.cpp.o"
 
 # External object files for target muon_sim
 muon_sim_EXTERNAL_OBJECTS =
@@ -172,8 +217,11 @@ muon_sim: CMakeFiles/muon_sim.dir/main.cpp.o
 muon_sim: CMakeFiles/muon_sim.dir/action.cpp.o
 muon_sim: CMakeFiles/muon_sim.dir/construction.cpp.o
 muon_sim: CMakeFiles/muon_sim.dir/detector.cpp.o
+muon_sim: CMakeFiles/muon_sim.dir/event.cpp.o
 muon_sim: CMakeFiles/muon_sim.dir/generator.cpp.o
 muon_sim: CMakeFiles/muon_sim.dir/physicslist.cpp.o
+muon_sim: CMakeFiles/muon_sim.dir/run.cpp.o
+muon_sim: CMakeFiles/muon_sim.dir/stepping.cpp.o
 muon_sim: CMakeFiles/muon_sim.dir/build.make
 muon_sim: CMakeFiles/muon_sim.dir/compiler_depend.ts
 muon_sim: /home/ws/miniconda3/envs/geant4env/lib/libG4Tree.so
@@ -219,7 +267,7 @@ muon_sim: /home/ws/miniconda3/envs/geant4env/lib/libG4global.so
 muon_sim: /home/ws/miniconda3/envs/geant4env/lib/libG4ptl.so.3.0.0
 muon_sim: /home/ws/miniconda3/envs/geant4env/lib/libCLHEP-2.4.7.1.so
 muon_sim: CMakeFiles/muon_sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable muon_sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/ws/Documents/mcgill26w/phys 258/finalproject/muon sim/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable muon_sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/muon_sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

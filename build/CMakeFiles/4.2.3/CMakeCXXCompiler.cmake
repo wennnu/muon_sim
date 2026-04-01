@@ -1,7 +1,7 @@
 set(CMAKE_CXX_COMPILER "/home/ws/miniconda3/envs/geant4env/bin/c++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "15.2.0")
+set(CMAKE_CXX_COMPILER_VERSION "14.3.0")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")
@@ -26,14 +26,14 @@ set(CMAKE_CXX_COMPILER_SYSROOT "/home/ws/miniconda3/envs/geant4env/bin/../x86_64
 set(CMAKE_COMPILER_SYSROOT "/home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr")
 
 
-set(CMAKE_AR "/usr/bin/ar")
+set(CMAKE_AR "/home/ws/miniconda3/envs/geant4env/bin/ar")
 set(CMAKE_CXX_COMPILER_AR "/home/ws/miniconda3/envs/geant4env/bin/gcc-ar")
-set(CMAKE_RANLIB "/usr/bin/ranlib")
+set(CMAKE_RANLIB "/home/ws/miniconda3/envs/geant4env/bin/ranlib")
 set(CMAKE_CXX_COMPILER_RANLIB "/home/ws/miniconda3/envs/geant4env/bin/gcc-ranlib")
-set(CMAKE_LINKER "/usr/bin/ld")
+set(CMAKE_LINKER "/home/ws/miniconda3/envs/geant4env/bin/ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
-set(CMAKE_CXX_COMPILER_LINKER "/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/../../../../x86_64-conda-linux-gnu/bin/ld")
+set(CMAKE_CXX_COMPILER_LINKER "/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/../../../../x86_64-conda-linux-gnu/bin/ld")
 set(CMAKE_CXX_COMPILER_LINKER_ID "GNU")
 set(CMAKE_CXX_COMPILER_LINKER_VERSION 2.44)
 set(CMAKE_CXX_COMPILER_LINKER_FRONTEND_VARIANT GNU)
@@ -91,9 +91,9 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++;/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/x86_64-conda-linux-gnu;/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include/c++/backward;/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include;/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0/include-fixed;/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include;/home/ws/miniconda3/envs/geant4env/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++;/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu;/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/backward;/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include;/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include-fixed;/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include;/home/ws/miniconda3/envs/geant4env/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/15.2.0;/home/ws/miniconda3/envs/geant4env/lib/gcc;/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/lib;/home/ws/miniconda3/envs/geant4env/lib;/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib;/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib;/home/ws/miniconda3/envs/geant4env/lib/stubs")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0;/home/ws/miniconda3/envs/geant4env/lib/gcc;/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/lib;/home/ws/miniconda3/envs/geant4env/lib;/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib;/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib;/home/ws/miniconda3/envs/geant4env/lib/stubs")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 set(CMAKE_CXX_COMPILER_CLANG_RESOURCE_DIR "")
 

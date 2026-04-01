@@ -1,14 +1,10 @@
-CMakeFiles/muon_sim.dir/detector.cpp.o: \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/detector.cpp \
+CMakeFiles/muon_sim.dir/stepping.cpp.o: \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/stepping.cpp \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/detector.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSensitiveDetector.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4CollectionNameVector.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/globals.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ios.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Types.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GlobalConfig.hh \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/complex \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/stepping.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4UserSteppingAction.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Step.hh \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/cstdlib \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/bits/c++config.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/bits/os_defines.h \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/features.h \
@@ -18,20 +14,6 @@ CMakeFiles/muon_sim.dir/detector.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs-64.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/bits/cpu_defines.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/pstl/pstl_config.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/cpp_type_traits.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/version.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/ext/type_traits.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/cmath \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/requires_hosted.h \
- /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/math.h \
- /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_val.h \
- /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_valf.h \
- /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_vall.h \
- /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/inf.h \
- /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/nan.h \
- /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/mathdef.h \
- /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/mathcalls.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/std_abs.h \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/stdlib.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/stddef.h \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitflags.h \
@@ -53,6 +35,20 @@ CMakeFiles/muon_sim.dir/detector.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/alloca.h \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib-float.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/std_abs.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/cmath \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/requires_hosted.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/cpp_type_traits.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/version.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/ext/type_traits.h \
+ /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/math.h \
+ /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_val.h \
+ /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_valf.h \
+ /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_vall.h \
+ /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/inf.h \
+ /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/nan.h \
+ /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/mathdef.h \
+ /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/mathcalls.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/specfun.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algobase.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/functexcept.h \
@@ -85,6 +81,10 @@ CMakeFiles/muon_sim.dir/detector.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/tr1/poly_hermite.tcc \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/tr1/poly_laguerre.tcc \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/tr1/riemann_zeta.tcc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ios.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Types.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GlobalConfig.hh \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/complex \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/sstream \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/istream \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/ios \
@@ -144,7 +144,6 @@ CMakeFiles/muon_sim.dir/detector.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/functional_hash.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/string_view.tcc \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/ext/string_conversions.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/cstdlib \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/cstdio \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/libio.h \
  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/_G_config.h \
@@ -185,6 +184,18 @@ CMakeFiles/muon_sim.dir/detector.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/sstream.tcc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/tls.hh \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/iostream \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/iomanip \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/locale \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/locale_facets_nonio.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/ctime \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/bits/time_members.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/bits/messages_members.h \
+ /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/libintl.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/codecvt.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/locale_facets_nonio.tcc \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/locale_conv.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/quoted_string.h \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/globals.hh \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/algorithm \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_algo.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/algorithmfwd.h \
@@ -210,17 +221,6 @@ CMakeFiles/muon_sim.dir/detector.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Exception.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ExceptionSeverity.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4EnvironmentUtils.hh \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/iomanip \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/locale \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/locale_facets_nonio.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/ctime \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/bits/time_members.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/bits/messages_members.h \
- /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/libintl.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/codecvt.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/locale_facets_nonio.tcc \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/locale_conv.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/quoted_string.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/map \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_tree.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/ext/aligned_buffer.h \
@@ -237,16 +237,6 @@ CMakeFiles/muon_sim.dir/detector.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/parse_numbers.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/std_mutex.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/unique_lock.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/vector \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_vector.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_bvector.h \
- /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/vector.tcc \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4HCofThisEvent.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Allocator.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AllocatorPool.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VHitsCollection.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Step.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ThreeVector.hh \
  /home/ws/miniconda3/envs/geant4env/include/CLHEP/Vector/ThreeVector.h \
  /home/ws/miniconda3/envs/geant4env/include/CLHEP/Vector/defs.h \
@@ -292,8 +282,15 @@ CMakeFiles/muon_sim.dir/detector.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/std_thread.h \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/thread \
  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/this_thread_sleep.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/vector \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_vector.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_bvector.h \
+ /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/vector.tcc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VPhysicalVolume.icc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4StepPoint.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Allocator.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AllocatorPool.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SteppingControl.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4StepStatus.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TouchableHandle.hh \
@@ -374,6 +371,43 @@ CMakeFiles/muon_sim.dir/detector.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserTrackInformation.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsModelCatalog.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Track.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Step.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/construction.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VPhysicalVolume.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4LogicalVolume.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PVPlacement.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Box.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GeomTypes.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GeomConfig.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4CSGSolid.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSolid.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSolid.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Polyhedron.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/HepPolyhedron.h \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TwoVector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/CLHEP/Vector/TwoVector.h \
+ /home/ws/miniconda3/envs/geant4env/include/CLHEP/Vector/TwoVector.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Point3D.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Normal3D.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Visible.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Visible.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Box.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Tubs.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Tubs.icc \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NistManager.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ICRU90StoppingData.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NistElementBuilder.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NistMaterialBuilder.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Pow.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Exp.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SystemOfUnits.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Material.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/detector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSensitiveDetector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4CollectionNameVector.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4HCofThisEvent.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VHitsCollection.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VHit.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VReadOutGeometry.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SensitiveVolumeList.hh \
@@ -411,8 +445,6 @@ CMakeFiles/muon_sim.dir/detector.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Navigator.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NormalNavigation.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VNavigation.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSolid.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSolid.icc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AuxiliaryNavServices.hh \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AuxiliaryNavServices.icc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NormalNavigation.icc \
@@ -589,4 +621,9 @@ CMakeFiles/muon_sim.dir/detector.cpp.o: \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ToolsAnalysisManager.icc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GenericAnalysisManager.icc \
  /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GenericFileManager.hh \
- /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GenericFileManager.icc
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GenericFileManager.icc \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/event.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4UserEventAction.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Event.hh \
+ /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/run.hh \
+ /home/ws/miniconda3/envs/geant4env/include/Geant4/G4UserRunAction.hh

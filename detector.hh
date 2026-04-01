@@ -4,7 +4,7 @@
 #include "G4VSensitiveDetector.hh"
 #include "G4RunManager.hh"
 
-#include "g4root.hh"
+#include "G4AnalysisManager.hh"
 
 // class for generate hits
 class SensitiveDetector : public G4VSensitiveDetector

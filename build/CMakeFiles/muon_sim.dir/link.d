@@ -1,13 +1,16 @@
 muon_sim: \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/crtbeginS.o \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/crtbeginS.o \
   CMakeFiles/muon_sim.dir/main.cpp.o \
   CMakeFiles/muon_sim.dir/action.cpp.o \
   CMakeFiles/muon_sim.dir/construction.cpp.o \
   CMakeFiles/muon_sim.dir/detector.cpp.o \
+  CMakeFiles/muon_sim.dir/event.cpp.o \
   CMakeFiles/muon_sim.dir/generator.cpp.o \
   CMakeFiles/muon_sim.dir/physicslist.cpp.o \
+  CMakeFiles/muon_sim.dir/run.cpp.o \
+  CMakeFiles/muon_sim.dir/stepping.cpp.o \
   /home/ws/miniconda3/envs/geant4env/lib/libG4Tree.so \
   /home/ws/miniconda3/envs/geant4env/lib/libG4FR.so \
   /home/ws/miniconda3/envs/geant4env/lib/libG4GMocren.so \
@@ -50,33 +53,32 @@ muon_sim: \
   /home/ws/miniconda3/envs/geant4env/lib/libG4global.so \
   /home/ws/miniconda3/envs/geant4env/lib/libG4ptl.so.3.0.0 \
   /home/ws/miniconda3/envs/geant4env/lib/libCLHEP-2.4.7.1.so \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libstdc++.so \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libstdc++.so \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libm.so \
-  /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libm.so \
-  /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libm.so \
-  /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libm.so.6 \
-  /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib64/libmvec_nonshared.a \
-  /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libmvec.so.1 \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgcc_s.so.1 \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgcc_s.so.1 \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc.a \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc.a \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libpthread.so \
+  /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libpthread.so \
+  /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libpthread.so \
+  /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libpthread.so.0 \
+  /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib64/libpthread_nonshared.a \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libc.so \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libc.so \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libc.so \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libc.so.6 \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib64/libc_nonshared.a \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/lib64/ld-linux-x86-64.so.2 \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgcc_s.so.1 \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a \
-  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/crtendS.o \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgcc_s.so.1 \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc.a \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc.a \
+  /home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/crtendS.o \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o \
   /home/ws/miniconda3/envs/geant4env/lib/libX11.so.6 \
   /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/lib64/ld-linux-x86-64.so.2 \
@@ -134,7 +136,7 @@ muon_sim: \
 
 /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o:
 
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/crtbeginS.o:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/crtbeginS.o:
 
 CMakeFiles/muon_sim.dir/main.cpp.o:
 
@@ -144,9 +146,15 @@ CMakeFiles/muon_sim.dir/construction.cpp.o:
 
 CMakeFiles/muon_sim.dir/detector.cpp.o:
 
+CMakeFiles/muon_sim.dir/event.cpp.o:
+
 CMakeFiles/muon_sim.dir/generator.cpp.o:
 
 CMakeFiles/muon_sim.dir/physicslist.cpp.o:
+
+CMakeFiles/muon_sim.dir/run.cpp.o:
+
+CMakeFiles/muon_sim.dir/stepping.cpp.o:
 
 /home/ws/miniconda3/envs/geant4env/lib/libG4Tree.so:
 
@@ -232,33 +240,31 @@ CMakeFiles/muon_sim.dir/physicslist.cpp.o:
 
 /home/ws/miniconda3/envs/geant4env/lib/libCLHEP-2.4.7.1.so:
 
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libstdc++.so:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libstdc++.so:
 
 /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libm.so:
 
-/home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libm.so:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so:
 
-/home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libm.so:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so:
 
-/home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libm.so.6:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so:
 
-/home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib64/libmvec_nonshared.a:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgcc_s.so.1:
 
-/home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libmvec.so.1:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc.a:
 
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so:
-
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so:
-
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so:
-
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgcc_s.so.1:
-
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a:
-
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc.a:
 
 /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libpthread.so:
+
+/home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libpthread.so:
+
+/home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libpthread.so:
+
+/home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libpthread.so.0:
+
+/home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib64/libpthread_nonshared.a:
 
 /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/libc.so:
 
@@ -272,19 +278,19 @@ CMakeFiles/muon_sim.dir/physicslist.cpp.o:
 
 /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/lib64/ld-linux-x86-64.so.2:
 
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so:
 
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so:
 
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc_s.so:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so:
 
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgcc_s.so.1:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgcc_s.so.1:
 
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc.a:
 
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc.a:
 
-/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/crtendS.o:
+/home/ws/miniconda3/envs/geant4env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/crtendS.o:
 
 /home/ws/miniconda3/envs/geant4env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o:
 
