@@ -31,7 +31,9 @@ class MuonDetectorConstruction : public G4VUserDetectorConstruction
 			     G4double spanningAngle);
 
 	virtual G4VPhysicalVolume *Construct();
+	G4LogicalVolume *GetScoringVolume() const {return fScoringVolume;}
   private:
+	G4LogicalVolume *fScoringVolume;
 	G4LogicalVolume *logicDetector;
 	virtual void ConstructSDandField();
 };
