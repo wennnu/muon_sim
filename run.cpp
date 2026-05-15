@@ -12,7 +12,7 @@ void RunAction::BeginOfRunAction(const G4Run*)
 
 	analyzer -> OpenFile("muon_output.root");
 	analyzer -> CreateNtuple("Hits", "Hits");
-	analyzer -> CreateNtupleDColumn("Muon Edep");
+	analyzer -> CreateNtupleDColumn("Muon_Edep");
 	analyzer -> FinishNtuple(0);
 
 }

@@ -19,14 +19,14 @@ void PrimaryGenerator::GeneratePrimaries(G4Event *event)
 	G4ParticleDefinition *particle = particleTable -> FindParticle(particleName);
 
 	// position and momentum vectors
-	G4ThreeVector pos(0.,0.,-6.*cm);
+	G4ThreeVector pos(0.,0.,-1*m);
 	G4ThreeVector mom(0.,0.,1.);
 
 	// generate the particle 
 	fParticleGun -> SetParticlePosition(pos);
 	fParticleGun -> SetParticleMomentumDirection(mom);
 	fParticleGun -> SetParticleEnergy(4.*GeV);
-	//fParticleGun -> SetParticleMomentum(4.*GeV);
+	fParticleGun -> SetParticleMomentum(500.*MeV);
 	fParticleGun -> SetParticleDefinition(particle);
 
 	fParticleGun -> GeneratePrimaryVertex(event);

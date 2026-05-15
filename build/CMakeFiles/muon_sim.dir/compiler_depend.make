@@ -4894,10 +4894,262 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
   /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/wctype.h \
   /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/xlocale.h
 
+muon_sim: /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/lib/libgcc_s.so.1 \
+  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/crtbeginS.o \
+  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/crtendS.o \
+  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc.a \
+  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so \
+  /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/libstdc++.so \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib64/ld-linux-x86-64.so.2 \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib64/libc.so.6 \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib64/libdl.so.2 \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib64/libpthread.so.0 \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib64/libresolv.so.2 \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/libc.so \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/libm.so \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/libpthread.so \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib64/libc_nonshared.a \
+  /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib64/libpthread_nonshared.a \
+  /home/ws/miniconda3/envs/geant4env/lib/libgthread-2.0.so.0 \
+  /home/ws/miniconda3/envs/geant4env/lib/libCLHEP-2.4.7.1.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4FR.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4GMocren.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4OpenGL.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4RayTracer.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4ToolsSG.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4Tree.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4VRML.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4analysis.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4digits_hits.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4error_propagation.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4event.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4gdml.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4geometry.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4geomtext.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4global.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4graphics_reps.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4intercoms.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4interfaces.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4materials.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4mctruth.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4modeling.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4parmodels.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4particles.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4physicslists.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4processes.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4ptl.so.3.0.0 \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4readout.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4run.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4track.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4tracking.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4visHepRep.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4visQt3D.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libG4vis_management.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libGL.so.1 \
+  /home/ws/miniconda3/envs/geant4env/lib/libGLX.so.0 \
+  /home/ws/miniconda3/envs/geant4env/lib/libGLdispatch.so.0 \
+  /home/ws/miniconda3/envs/geant4env/lib/libICE.so.6 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt53DCore.so.5 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt53DExtras.so.5 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt53DInput.so.5 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt53DLogic.so.5 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt53DRender.so.5 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt5Concurrent.so.5 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt5Core.so.5.15.15 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt5Gamepad.so.5 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt5Gui.so.5.15.15 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt5Network.so.5 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt5OpenGL.so.5 \
+  /home/ws/miniconda3/envs/geant4env/lib/libQt5Widgets.so.5.15.15 \
+  /home/ws/miniconda3/envs/geant4env/lib/libSM.so.6 \
+  /home/ws/miniconda3/envs/geant4env/lib/libX11.so.6 \
+  /home/ws/miniconda3/envs/geant4env/lib/libXau.so.6 \
+  /home/ws/miniconda3/envs/geant4env/lib/libXdmcp.so.6 \
+  /home/ws/miniconda3/envs/geant4env/lib/libXext.so.6 \
+  /home/ws/miniconda3/envs/geant4env/lib/libXmu.so.6 \
+  /home/ws/miniconda3/envs/geant4env/lib/libXt.so.6 \
+  /home/ws/miniconda3/envs/geant4env/lib/libcom_err.so.3 \
+  /home/ws/miniconda3/envs/geant4env/lib/libcrypto.so.3 \
+  /home/ws/miniconda3/envs/geant4env/lib/libcurl.so.4 \
+  /home/ws/miniconda3/envs/geant4env/lib/libexpat.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libfreetype.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libglib-2.0.so.0 \
+  /home/ws/miniconda3/envs/geant4env/lib/libgraphite2.so.3 \
+  /home/ws/miniconda3/envs/geant4env/lib/libgssapi_krb5.so.2 \
+  /home/ws/miniconda3/envs/geant4env/lib/libgthread-2.0.so.0 \
+  /home/ws/miniconda3/envs/geant4env/lib/libharfbuzz.so.0 \
+  /home/ws/miniconda3/envs/geant4env/lib/libhdf5.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libiconv.so.2 \
+  /home/ws/miniconda3/envs/geant4env/lib/libicudata.so.78 \
+  /home/ws/miniconda3/envs/geant4env/lib/libicui18n.so.78 \
+  /home/ws/miniconda3/envs/geant4env/lib/libicuuc.so.78 \
+  /home/ws/miniconda3/envs/geant4env/lib/libk5crypto.so.3 \
+  /home/ws/miniconda3/envs/geant4env/lib/libkeyutils.so.1 \
+  /home/ws/miniconda3/envs/geant4env/lib/libkrb5.so.3 \
+  /home/ws/miniconda3/envs/geant4env/lib/libkrb5support.so.0 \
+  /home/ws/miniconda3/envs/geant4env/lib/libnghttp2.so.14 \
+  /home/ws/miniconda3/envs/geant4env/lib/libnsl.so.3 \
+  /home/ws/miniconda3/envs/geant4env/lib/libpcre2-8.so.0 \
+  /home/ws/miniconda3/envs/geant4env/lib/libpng16.so.16 \
+  /home/ws/miniconda3/envs/geant4env/lib/libssh2.so.1 \
+  /home/ws/miniconda3/envs/geant4env/lib/libssl.so.3 \
+  /home/ws/miniconda3/envs/geant4env/lib/libsz.so.2 \
+  /home/ws/miniconda3/envs/geant4env/lib/libuuid.so.1 \
+  /home/ws/miniconda3/envs/geant4env/lib/libxcb.so.1 \
+  /home/ws/miniconda3/envs/geant4env/lib/libxerces-c.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libz.so \
+  /home/ws/miniconda3/envs/geant4env/lib/libzstd.so.1 \
+  CMakeFiles/muon_sim.dir/action.cpp.o \
+  CMakeFiles/muon_sim.dir/construction.cpp.o \
+  CMakeFiles/muon_sim.dir/detector.cpp.o \
+  CMakeFiles/muon_sim.dir/event.cpp.o \
+  CMakeFiles/muon_sim.dir/generator.cpp.o \
+  CMakeFiles/muon_sim.dir/main.cpp.o \
+  CMakeFiles/muon_sim.dir/physicslist.cpp.o \
+  CMakeFiles/muon_sim.dir/run.cpp.o \
+  CMakeFiles/muon_sim.dir/stepping.cpp.o
+
+
+CMakeFiles/muon_sim.dir/stepping.cpp.o:
+
+CMakeFiles/muon_sim.dir/run.cpp.o:
+
+CMakeFiles/muon_sim.dir/physicslist.cpp.o:
+
+CMakeFiles/muon_sim.dir/main.cpp.o:
+
+CMakeFiles/muon_sim.dir/detector.cpp.o:
+
+CMakeFiles/muon_sim.dir/action.cpp.o:
+
+/home/ws/miniconda3/envs/geant4env/lib/libz.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libxerces-c.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libssh2.so.1:
+
+/home/ws/miniconda3/envs/geant4env/lib/libnsl.so.3:
+
+/home/ws/miniconda3/envs/geant4env/lib/libkrb5support.so.0:
+
+/home/ws/miniconda3/envs/geant4env/lib/libkrb5.so.3:
+
+/home/ws/miniconda3/envs/geant4env/lib/libxcb.so.1:
+
+/home/ws/miniconda3/envs/geant4env/lib/libkeyutils.so.1:
+
+/home/ws/miniconda3/envs/geant4env/lib/libk5crypto.so.3:
+
+/home/ws/miniconda3/envs/geant4env/lib/libpcre2-8.so.0:
+
+/home/ws/miniconda3/envs/geant4env/lib/libicuuc.so.78:
+
+/home/ws/miniconda3/envs/geant4env/lib/libicudata.so.78:
+
+/home/ws/miniconda3/envs/geant4env/lib/libiconv.so.2:
+
+/home/ws/miniconda3/envs/geant4env/lib/libhdf5.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libharfbuzz.so.0:
+
+/home/ws/miniconda3/envs/geant4env/lib/libgraphite2.so.3:
+
+/home/ws/miniconda3/envs/geant4env/lib/libfreetype.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libexpat.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libXt.so.6:
+
+/home/ws/miniconda3/envs/geant4env/lib/libXdmcp.so.6:
+
+/home/ws/miniconda3/envs/geant4env/lib/libXau.so.6:
+
+/home/ws/miniconda3/envs/geant4env/lib/libQt5Widgets.so.5.15.15:
+
+/home/ws/miniconda3/envs/geant4env/lib/libQt5Gui.so.5.15.15:
+
+/home/ws/miniconda3/envs/geant4env/lib/libQt5Gamepad.so.5:
+
+/home/ws/miniconda3/envs/geant4env/lib/libQt5Core.so.5.15.15:
+
+/home/ws/miniconda3/envs/geant4env/lib/libQt53DRender.so.5:
+
+/home/ws/miniconda3/envs/geant4env/lib/libQt53DLogic.so.5:
+
+/home/ws/miniconda3/envs/geant4env/lib/libQt53DInput.so.5:
+
+/home/ws/miniconda3/envs/geant4env/lib/libQt53DExtras.so.5:
+
+/home/ws/miniconda3/envs/geant4env/lib/libGLX.so.0:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4readout.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4ptl.so.3.0.0:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4processes.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4particles.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4parmodels.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4modeling.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4materials.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4interfaces.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4global.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4geomtext.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4event.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4digits_hits.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4RayTracer.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4OpenGL.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4GMocren.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4FR.so:
+
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib64/libpthread_nonshared.a:
+
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib64/libc_nonshared.a:
+
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/libm.so:
+
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/libc.so:
+
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o:
+
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib64/libdl.so.2:
+
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib64/libc.so.6:
+
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib64/ld-linux-x86-64.so.2:
+
+/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/libstdc++.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc.a:
+
+/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/crtendS.o:
+
+/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/crtbeginS.o:
+
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/lib/libgcc_s.so.1:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4gdml.so:
 
 /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/stepping.cpp:
 
 /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/physicslist.cpp:
+
+/home/ws/miniconda3/envs/geant4env/lib/libicui18n.so.78:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/functional:
 
@@ -4916,6 +5168,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VisManager.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VisExtent.hh:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4geometry.so:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VisExecutive.icc:
 
@@ -4938,6 +5192,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VSceneHandler.icc:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VModularPhysicsList.hh:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4run.so:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VModel.icc:
 
@@ -4979,6 +5235,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Scene.hh:
 
+/home/ws/miniconda3/envs/geant4env/lib/libcom_err.so.3:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUIshell.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4RayTracerX.hh:
@@ -5013,6 +5271,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Orb.icc:
 
+/home/ws/miniconda3/envs/geant4env/lib/libX11.so.6:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4OpenGLStoredX.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4OpenGLImmediateQt.hh:
@@ -5043,6 +5303,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Color.hh:
 
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib64/libresolv.so.2:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Cache.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AttValue.hh:
@@ -5062,6 +5324,10 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4OpenGLImmediateX.hh:
 
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/wctype.h:
+
+/home/ws/miniconda3/envs/geant4env/lib/libQt53DCore.so.5:
+
+/home/ws/miniconda3/envs/geant4env/lib/libICE.so.6:
 
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/sys/types.h:
 
@@ -5129,6 +5395,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sched.h:
 
+/home/ws/miniconda3/envs/geant4env/lib/libpng16.so.16:
+
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PolyhedraSide.hh:
@@ -5140,6 +5408,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_vall.h:
 
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_valf.h:
+
+/home/ws/miniconda3/envs/geant4env/lib/libQt5OpenGL.so.5:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ToolsSGQtGLES.hh:
 
@@ -5156,6 +5426,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/local_lim.h:
 
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/asm/errno.h:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4VRML.so:
 
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/errno.h:
 
@@ -5197,6 +5469,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/vector:
 
+/home/ws/miniconda3/envs/geant4env/lib/libcrypto.so.3:
+
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/type_traits:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/tuple:
@@ -5210,6 +5484,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Step.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4StepStatus.hh:
+
+/home/ws/miniconda3/envs/geant4env/lib/libglib-2.0.so.0:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Tubs.icc:
 
@@ -5232,6 +5508,10 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4PhysicsTable.icc:
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/Random.icc:
+
+CMakeFiles/muon_sim.dir/generator.cpp.o:
+
+/home/ws/miniconda3/envs/geant4env/lib/libXext.so.6:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/tools/histo/h2:
 
@@ -5313,6 +5593,10 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4NavigationHistory.icc:
 
+/home/ws/miniconda3/envs/geant4env/lib/libG4vis_management.so:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4analysis.so:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/tools/typedefs:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4MuonDecayChannel.hh:
@@ -5328,6 +5612,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4MaterialPropertiesIndex.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4IsotopeVector.hh:
+
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4IonisParamMat.hh:
 
@@ -5375,6 +5661,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/detector.hh:
 
+/home/ws/miniconda3/envs/geant4env/lib/libG4track.so:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ToolsSGX11GLES.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ForceCondition.hh:
@@ -5413,6 +5701,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ElementTable.hh:
 
+/home/ws/miniconda3/envs/geant4env/lib/libssl.so.3:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Element.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VParticleChange.hh:
@@ -5430,6 +5720,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Units/PhysicalConstants.h:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/chrono:
+
+/home/ws/miniconda3/envs/geant4env/lib/libuuid.so.1:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4SmartVoxelProxy.hh:
 
@@ -5487,6 +5779,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleTable.icc:
 
+/home/ws/miniconda3/envs/geant4env/lib/libQt5Network.so.5:
+
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandGaussQ.h:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VPVParameterisation.hh:
@@ -5541,6 +5835,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandBit.icc:
 
+/home/ws/miniconda3/envs/geant4env/lib/libXmu.so.6:
+
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/byteswap.h:
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandBit.h:
@@ -5579,6 +5875,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/MTwistEngine.h:
 
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/libpthread.so:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GenericAnalysisManager.icc:
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Utility/noncopyable.h:
@@ -5588,6 +5886,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandLandau.h:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/basic_ios.tcc:
+
+/home/ws/miniconda3/envs/geant4env/lib/libCLHEP-2.4.7.1.so:
 
 /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/event.hh:
 
@@ -5673,6 +5973,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/Stat.h:
 
+/home/ws/miniconda3/envs/geant4env/lib/libG4Tree.so:
+
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandExpZiggurat.h:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TrackingMessenger.hh:
@@ -5705,6 +6007,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/Documents/mcgill26w/phys\ 258/finalproject/muon\ sim/run.hh:
 
+/home/ws/miniconda3/envs/geant4env/lib/libGL.so.1:
+
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Vector/LorentzVector.h:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GeomConfig.hh:
@@ -5728,6 +6032,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/cstdio:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4BaseFileManager.hh:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4mctruth.so:
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/JamesRandom.h:
 
@@ -5763,6 +6069,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/stdlib.h:
 
+/home/ws/miniconda3/envs/geant4env/lib/libG4physicslists.so:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4GMocrenFile.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4MaterialTable.hh:
@@ -5770,6 +6078,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Utility/defs.h:
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Vector/AxisAngle.h:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4error_propagation.so:
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/Random.h:
 
@@ -5837,6 +6147,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Random/RandStudentT.h:
 
+/home/ws/miniconda3/envs/geant4env/lib/libGLdispatch.so.0:
+
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h:
 
 /home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/timex.h:
@@ -5859,11 +6171,15 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/ptr_traits.h:
 
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/lib64/libpthread.so.0:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AnalysisUtilities.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TH3ToolsManager.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4AutoLock.hh:
+
+/home/ws/miniconda3/envs/geant4env/lib/libzstd.so.1:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/hashtable_policy.h:
 
@@ -5931,6 +6247,10 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Track.hh:
 
+/home/ws/miniconda3/envs/geant4env/lib/libG4ToolsSG.so:
+
+/home/ws/miniconda3/envs/geant4env/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4TrackStatus.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Geometry/Normal3D.h:
@@ -5938,6 +6258,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_iterator_base_types.h:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/version.h:
+
+CMakeFiles/muon_sim.dir/construction.cpp.o:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/cmath:
 
@@ -5975,6 +6297,10 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/string_view:
 
+CMakeFiles/muon_sim.dir/event.cpp.o:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4visHepRep.so:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4UserStackingAction.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4UserSteppingAction.hh:
@@ -5982,6 +6308,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VModelFactory.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VAnalysisManager.icc:
+
+/home/ws/miniconda3/envs/geant4env/lib/libQt5Concurrent.so.5:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/globals.hh:
 
@@ -6083,6 +6411,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4Visible.icc:
 
+/home/ws/miniconda3/envs/geant4env/lib/libgthread-2.0.so.0:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4OpenGLStoredQt.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/Randomize.hh:
@@ -6090,6 +6420,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/localefwd.h:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/geomdefs.hh:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4tracking.so:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4DAWNFILE.hh:
 
@@ -6101,6 +6433,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/tools/histo/axes:
 
+/home/ws/miniconda3/envs/geant4env/lib/libcurl.so.4:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/tools/histo/axis:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/tools/histo/b1:
@@ -6109,6 +6443,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/tools/histo/b3:
 
+/home/ws/miniconda3/envs/geant4env/lib/libgssapi_krb5.so.2:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4VUserTrackInformation.hh:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/tools/histo/base_histo:
@@ -6116,6 +6452,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/include/Geant4/tools/histo/h1d:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/tools/histo/h2d:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4visQt3D.so:
 
 /home/ws/miniconda3/envs/geant4env/include/Geant4/G4ParticleTableIterator.hh:
 
@@ -6147,6 +6485,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_iterator.h:
 
+/home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/libgcc_s.so:
+
 /home/ws/miniconda3/envs/geant4env/include/Geant4/trkdefs.hh:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/algorithm:
@@ -6161,11 +6501,17 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/backward/binders.h:
 
+/home/ws/miniconda3/envs/geant4env/lib/libsz.so.2:
+
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/algorithmfwd.h:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4intercoms.so:
 
 /home/ws/miniconda3/envs/geant4env/include/CLHEP/Vector/AxisAngle.icc:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/align.h:
+
+/home/ws/miniconda3/envs/geant4env/lib/libG4graphics_reps.so:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/allocator.h:
 
@@ -6234,6 +6580,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/std_mutex.h:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/ostream_insert.h:
+
+/home/ws/miniconda3/envs/geant4env/lib/libSM.so.6:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/parse_numbers.h:
 
@@ -6382,6 +6730,8 @@ CMakeFiles/muon_sim.dir/stepping.cpp.o: /home/ws/Documents/mcgill26w/phys\ 258/f
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/ext/string_conversions.h:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/ext/type_traits.h:
+
+/home/ws/miniconda3/envs/geant4env/lib/libnghttp2.so.14:
 
 /home/ws/miniconda3/envs/geant4env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/initializer_list:
 

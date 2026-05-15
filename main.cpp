@@ -33,9 +33,15 @@ int main(int argc, char** argv)
 	
 	UImanager -> ApplyCommand("/vis/open OGL");
 	UImanager -> ApplyCommand("/vis/drawVolume");
+	UImanager -> ApplyCommand("/vis/viewer/set/defaultColour .3. 4. 5");
+	UImanager -> ApplyCommand("/vis/viewer/set/background .5 .8 .5");
 	UImanager -> ApplyCommand("/vis/scene/add/trajectories smooth");
 	UImanager -> ApplyCommand("/vis/scene/endOfEventAction accumulate");
-
+	UImanager -> ApplyCommand("/vis/scene/add/axes 0 0 0 1 m");
+	UImanager -> ApplyCommand("/vis/geometry/set/colour PlasticScintillator 1 0 1");
+	UImanager -> ApplyCommand("/vis/geometry/set/forceSolid PlasticScintillator");
+	UImanager -> ApplyCommand("/vis/geometry/set/colour AluminumBox 0.5 0 1");
+	UImanager -> ApplyCommand("/vis/viewer/centreAndZoomInOn AlBox");
 	ui -> SessionStart();
 	
 	return 0;

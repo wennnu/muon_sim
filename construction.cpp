@@ -56,7 +56,7 @@ G4VPhysicalVolume *MuonDetectorConstruction::Construct()
 	PVT -> SetMaterialPropertiesTable(mptPVT);
 
 	// create the world
-	G4double length = 1.0*m;
+	G4double length = 1.0*km;
 	G4Box* worldBox = new G4Box("World", length, length, length);
 
 	G4LogicalVolume* logicWorld = new G4LogicalVolume(worldBox, air, "World Air");
@@ -66,12 +66,12 @@ G4VPhysicalVolume *MuonDetectorConstruction::Construct()
 							    0);
 
 	// create the Al Cylinder Box
-	G4Tubs* AlBoxDimension = MuonDetectorConstruction::MakeCylinder("Aluminum Dimension", 0.*cm,
+	G4Tubs* AlBoxDimension = MuonDetectorConstruction::MakeCylinder("AluminumDimension", 0.*cm,
 									8.25*cm, 17.75*cm,
 									0.*deg, 360.*deg);
 	G4LogicalVolume* logicalAlBox = new G4LogicalVolume(AlBoxDimension, 
 							air,
-							"Aluminum Box");
+							"AluminumBox");
 	G4VPhysicalVolume* physicalAlBox = new G4PVPlacement(0, G4ThreeVector(0.,0.,0.),
 							    logicalAlBox,
 							    "AlBox",
@@ -86,7 +86,7 @@ G4VPhysicalVolume *MuonDetectorConstruction::Construct()
 									0.*deg, 360.*deg);
 
  
-	G4LogicalVolume* logicPVT = new G4LogicalVolume(scintillatorDimension, PVT, "Plastic Scintillator"); 
+	G4LogicalVolume* logicPVT = new G4LogicalVolume(scintillatorDimension, PVT, "PlasticScintillator"); 
 	logicDetector = logicPVT;
 	fScoringVolume = logicPVT;
 

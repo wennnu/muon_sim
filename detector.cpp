@@ -18,8 +18,8 @@ G4bool SensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *R0hist)
 	// get photon position information
 	//G4ThreeVector posPhoton =  preStep -> GetPosition();
 
-	//G4int event = G4RunManager::GetRunManager() -> GetCurrentEvent() -> GetEventID();
-	//G4AnalysisManager *analyzer = new G4AnalysisManager::Instane();
+	G4int event = G4RunManager::GetRunManager() -> GetCurrentEvent() -> GetEventID();
+	//G4AnalysisManager *analyzer = new G4AnalysisManager::Instance();
 
 	return true;
 }
